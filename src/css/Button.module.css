@@ -1,0 +1,32 @@
+.typebtn {
+    font-size:3vmax;
+    font-weight: bold;
+    border-radius: 30px;
+    padding:100px;
+    width:50%;
+    height:100%;
+    color:#FFD400;
+    background-color:#ED544A;
+    position: static;
+}
+
+.logbtn {
+    font-size:3vmax;
+    font-weight: bold;
+    border-radius: 30px;
+    padding:100px;
+    width:50%;
+    height:100%;
+    color:#FFD400;
+    background-color:#8B00FF;
+    position: static;
+}
+
+.menubtn{
+    display: inline-block;
+    margin:auto;
+    border-radius: 50px;
+    font-size:1.5vmax;
+    background-color: white;
+    
+}

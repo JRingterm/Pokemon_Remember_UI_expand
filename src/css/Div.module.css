@@ -1,0 +1,43 @@
+.homediv {
+    width:100vw;
+    height:50vh;
+    align-items: center;
+    
+}
+.menudiv {
+    width:100vw;
+    height:5vh;
+    background-color: green;
+    
+}
+.maindiv { /*맨위부터 footer 전까지*/
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+.contentsdiv {/*메뉴창 밑에부터 footer 전까지*/
+    min-width: 80vw;
+    min-height: 60vh;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+    display: flex;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.partsdiv { /*contentsdiv에 들어가는 요소*/ 
+    width:50%;
+    flex:1 1 auto;
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px black;
+    display: grid;
+}

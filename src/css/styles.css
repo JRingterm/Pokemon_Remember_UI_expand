@@ -1,0 +1,23 @@
+ul{list-style:none; text-align:center; 
+    border-bottom:8px solid #111; padding:10px 0; background-color: yellow; font-size: 30px; font-weight: bold;
+}/*리스트 안 텍스트가 가운데 정렬로, 리스트의 위 아래에 빨간색 경계선을 그림*/
+
+ul li{display:inline; padding:0 10px; letter-spacing:10px; 
+}/*리스트 항목이 한 줄에 차례로 배치되게 한다. 항목 간의 간격과 글자 간격을 설정한다.*/
+ul li a{text-decoration:none; color:black;}
+ul li a:hover{ text-decoration:underline;}/*마우스를 올려놓으면 밑줄이 생기게*/
+
+h1{--border-size: 8px;
+    --circle-size: 36px;
+    background-color: #ED544A;
+    border-bottom: 8px solid #111;
+    padding: 1rem;
+    padding-top: calc(.55 * var(--circle-size));
+    padding-bottom: calc(.55 * var(--circle-size));
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    display: block;
+    font-weight: bold;
+}

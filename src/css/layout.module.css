@@ -1,0 +1,14 @@
+.header {
+    text-align: center;
+    font-size:2vmax;
+    top: 5;
+    width: 100%;
+    background-color: brown;
+}
+
+.footer {
+    height:10vh;
+    margin-top:auto;
+    background-color: coral;
+}
+
